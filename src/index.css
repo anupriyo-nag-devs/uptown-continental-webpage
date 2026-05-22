@@ -1,0 +1,68 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+/* ── Global Obsidian Dark Base ─────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #050505;
+  color: #e5e5e5;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+/* ── Native input dark override (prevents white datepicker flash) ──── */
+input[type="date"],
+input[type="time"],
+input[type="number"],
+select,
+textarea {
+  color-scheme: dark;
+  background-color: transparent;
+}
+
+/* Remove default select arrow on WebKit */
+select::-webkit-scrollbar {
+  width: 6px;
+}
+select::-webkit-scrollbar-track {
+  background: #141414;
+}
+select::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+
+/* ── Scrollbar ───────────────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #222;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7ca982;
+}
+
+/* ── Root ────────────────────────────────────────────────────────────── */
+#root {
+  min-height: 100dvh;
+}
