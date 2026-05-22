@@ -1,11 +1,6 @@
 # 🍽️ Uptown Continental
 
-[![GitHub stars](https://img.shields.io/github/stars/anupriyo-nag-devs/uptown-continental-webpage?style=flat-square)](https://github.com/anupriyo-nag-devs/uptown-continental-webpage/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/anupriyo-nag-devs/uptown-continental-webpage?style=flat-square)](https://github.com/anupriyo-nag-devs/uptown-continental-webpage/issues)
-
-A premium, modern web application crafted for **Uptown Continental**. This platform offers an elegant, high-performance digital dining experience, bridging the gap between gourmet continental cuisine and seamless user interaction.
-
-[✨ Live Demo](https://anupriyo-nag-devs.github.io/uptown-continental-webpage/) · [🐛 Report Bug](https://github.com/anupriyo-nag-devs/uptown-continental-webpage/issues) · [💡 Request Feature](https://github.com/anupriyo-nag-devs/uptown-continental-webpage/issues)
+A modern frontend web application crafted for **Uptown Continental**. This project offers an elegant digital dining experience, bridging the gap between gourmet continental cuisine and seamless user interaction.
 
 ---
 
@@ -14,13 +9,11 @@ A premium, modern web application crafted for **Uptown Continental**. This platf
 *   **Premium Visual Presentation:** A sophisticated aesthetic utilizing smooth transitions and modern layouts optimized for culinary galleries.
 *   **Interactive Menu Interface:** Categorized, dynamic digital menu showcasing continental delicacies with descriptions and pricing.
 *   **Fully Responsive Architecture:** Flawless cross-device compatibility optimized meticulously for mobile, tablet, and desktop viewports.
-*   **Seamless Reservation Funnel:** An intuitive, user-friendly reservation system to capture booking details effortlessly.
+*   **Seamless Reservation Funnel:** An intuitive frontend interface designed to capture booking details effortlessly.
 
 ---
 
 ## 🛠️ Tech Stack
-
-The project leverages a robust and lightweight front-end stack to achieve fast load times and pixel-perfect rendering:
 
 | Layer | Technology | Purpose |
 | :--- | :--- | :--- |
@@ -33,12 +26,7 @@ The project leverages a robust and lightweight front-end stack to achieve fast l
 
 ## 📦 Installation & Local Setup
 
-Follow these steps to set up the development environment locally:
-
-### Prerequisites
-Ensure you have a web browser and a local development server extension (like VS Code Live Server) or Python installed.
-
-### Step-by-Step Installation
+Follow these steps to set up the frontend environment locally:
 
 **1. Clone the repository:**
 ```bash
@@ -77,18 +65,8 @@ uptown-continental-webpage/
 │   ├── js/             # Interactive functionalities
 │   └── images/         # Optimized high-resolution culinary media
 │
-├── index.html          # Primary landing experience
-└── README.md           # Documentation
+└── index.html          # Primary landing experience
 
 ```
-
----
-
-## 📞 Contact & Support
-
-For any inquiries, feedback, or support regarding the Uptown Continental web experience, feel free to reach out or open an issue in the repository.
-
-* **Developer:** [anupriyo-nag-devs](https://www.google.com/search?q=https://github.com/anupriyo-nag-devs)
-* **Repository:** [Uptown Continental Webpage](https://www.google.com/search?q=https://github.com/anupriyo-nag-devs/uptown-continental-webpage)
 
 ---
